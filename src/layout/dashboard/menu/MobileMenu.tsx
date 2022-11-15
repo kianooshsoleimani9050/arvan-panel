@@ -14,7 +14,6 @@ const MobileMenu = () => (
             ? "desktop-menu-link-active text-decoration-none"
             : "desktop-menu-link text-decoration-none"
         }
-        end
       >
         <h6 className="text-white m-0 p-2 pl-4">All Articles</h6>
       </NavLink>
