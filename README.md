@@ -1,8 +1,8 @@
-# Welcome to jabama test 👋
+# Welcome to arvan panle 👋
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
 
-> This is test project for hiring steps and technical interview in alibaba-jabama company
+> This is test project for hiring steps and technical interview in arvan company
 
 ### ✨ [Demo](https://moviedb-project-test.netlify.app/)
 

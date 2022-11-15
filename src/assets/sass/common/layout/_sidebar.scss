@@ -1,0 +1,10 @@
+.sidebar-container {
+  width: 100%;
+  height: calc(100vh - 54px);
+  overflow: hidden;
+}
+.sidebar-content-container {
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}

@@ -1,5 +1,5 @@
 import { ComponentType, lazy } from "react";
-import type { NestedRouteObject } from "../@types/common";
+import type { NestedRouteObject } from "../@types/common.model";
 
 export const lazyRetry = function (
   componentImport: () => Promise<{
@@ -57,3 +57,11 @@ export const getAbsoluteRoute = (obj: NestedRouteObject, base = "") => {
   });
   return newobj;
 };
+
+export const paginationRange = (start: number, end: number) => {
+  const length = end - start + 1;
+  return Array.from({ length }, (_, idx) => idx + start);
+};
+
+export const wordsSelector = (data: string, count: number): string =>
+  data.split(" ").slice(0, count).join(" ");
