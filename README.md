@@ -4,7 +4,7 @@
 
 > This is test project for hiring steps and technical interview in arvan company
 
-### ✨ [Demo](https://moviedb-project-test.netlify.app/)
+### ✨ [Demo](https://arvan-panel.netlify.app/)
 
 ## Install
 
